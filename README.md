@@ -19,7 +19,7 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 
 ## Technologies Used
 - AWS EC2
-- Linux (Amazon Linux / Ubuntu)
+- Linux (Amazon Linux)
 - Apache Web Server
 - HTML
 - SSH
@@ -81,8 +81,8 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 - cd /var/www/html
 - sudo nano index.html
 - Example HTML:
-- <h1>Hello World</h1>
-- <p>My First AWS EC2 Web Application</p>
+- Hello World My First AWS EC2 Web Application
+
 # how to save this html page and exit 
 
 - Save:
