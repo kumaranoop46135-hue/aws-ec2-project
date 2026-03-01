@@ -26,19 +26,19 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 - HTML
 - SSH
 
-User Browser
-|
-v
-Public Internet
-|
-v
-AWS EC2 Instance
-|
-v
-Apache Web Server
-|
-v
-HTML Web Application
+- User Browser
+- |
+- v
+- Public Internet
+- |
+- v
+- AWS EC2 Instance
+- |
+- v
+- Apache Web Server
+- |
+- v
+- HTML Web Application
 
 
 ---
