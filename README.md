@@ -25,6 +25,7 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 - Apache Web Server
 - HTML
 - SSH
+## Project Architecture
 
 - User Browser
 - |
@@ -39,7 +40,6 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 - |
 - v
 - HTML Web Application
-
 
 ---
 
@@ -60,9 +60,8 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 ### 2. Connect to EC2
 
 ```bash
-ssh -i "your-key.pem" ec2-user@your-public-ip
+ssh -i "your-key.pem" ec2-user@your-public-i
+---
 
+## 3. Update Packages
 
---- 
-
-## Project Architecture
