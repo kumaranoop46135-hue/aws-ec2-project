@@ -92,7 +92,7 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 - Press Enter
 ---
 ## 6. Access Website
-- http://your-public-ip
+Enter the public ip on the chrome see on this image and press enter button 
   <img width="1560" height="823" alt="image" src="https://github.com/user-attachments/assets/1c45099f-3544-4f94-a037-51b0dff0d33f" />
 
 ---
