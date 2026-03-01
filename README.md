@@ -63,6 +63,6 @@ HTML Web Application
 ssh -i "your-key.pem" ec2-user@your-public-ip
 
 
----
+--- 
 
 ## Project Architecture
