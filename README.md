@@ -1,6 +1,4 @@
 ## aws-ec2-project
-# deploy a simple web applovation on AWS EC2
-- This project demonstrates how to deploy a simple web application (such as Jenkins) on an AWS EC2 instance and make it accessible from outside AWS. It includes steps for provisioning resources, configuring the server, and accessing the application via a public URL.
 # AWS EC2 Simple Web Application Deployment
 
 ## Project Overview
@@ -57,11 +55,67 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 
 ---
 
-### 2. Connect to EC2
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/9a830895-e1c8-4eef-9af3-729ebaf565fd" />
 
-```bash
-ssh -i "your-key.pem" ec2-user@your-public-i
+---
+
+### 2. Connect to EC2
+- open powershell on your machine
+- ssh -i "your-key.pem" ec2-user@your-public-ip
+
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/3f4ccaa2-1188-4d0e-b79e-edde54c0dc29" />
+
 ---
 
 ## 3. Update Packages
+- sudo yum update -y
+---
 
+## 4. Install Apache
+- sudo yum install httpd -y
+- sudo systemctl start httpd
+- sudo systemctl status httpd
+---
+
+## 5. Deploy Web Application
+- cd /var/www/html
+- sudo nano index.html
+- Example HTML:
+- <h1>Hello World</h1>
+- <p>My First AWS EC2 Web Application</p>
+# how to save this html page and exit 
+
+- Save:
+
+- Press Ctrl + X
+
+- Press Y
+
+- Press Enter
+---
+## 6. Access Website
+- http://your-public-ip
+  <img width="1560" height="823" alt="image" src="https://github.com/user-attachments/assets/1c45099f-3544-4f94-a037-51b0dff0d33f" />
+
+---
+
+# Output
+The static web page is successfully deployed and accessible over the internet using the EC2 public IP.
+
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/6633d935-c88f-45e3-b7d1-7c8216a38422" />
+
+---
+
+## Learning Outcomes
+- Basic cloud deployment
+
+- Linux server configuration
+
+- Web server setup
+
+- AWS networking basics
+
+  ---
+  # Author
+  ### Anoop kumar
+  
