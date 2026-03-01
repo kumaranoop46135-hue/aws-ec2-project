@@ -85,8 +85,6 @@ The application is deployed on a Linux-based EC2 instance and accessed through a
 
 # how to save this html page and exit 
 
-- Save:
-
 - Press Ctrl + X
 
 - Press Y
